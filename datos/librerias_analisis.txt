@@ -1,0 +1,14 @@
+import funpymodeling as fp
+fp.status()
+
+
+import seaborn as sb
+
+
+
+
+dataprep
+pip install -U dataprep
+from dataprep.eda import create_report, plot
+create_report(df).show_browser()
+plot(df, 'variable')
